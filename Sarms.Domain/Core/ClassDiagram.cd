@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sarms.Domain.Core.Account" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAEAAAAABAAAQAAAIAAAAAACAACAAAABAAAAAA=</HashCode>
+      <FileName>Core\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sarms.Domain.Core.Administrator">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Administrator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Reports" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sarms.Domain.Core.Assignment">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Assignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sarms.Domain.Core.Course">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAACAAQAAAAQgEAAAAAAAAAA=</HashCode>
+      <FileName>Core\Course.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Units" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sarms.Domain.Core.Lecturer">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Lecturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sarms.Domain.Core.Report">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAACAACAAAAEAAAAAAA=</HashCode>
+      <FileName>Core\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sarms.Domain.Core.Student">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAwAAIAAgAAAAAIAAAACAAAABAAAAAA=</HashCode>
+      <FileName>Core\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sarms.Domain.Core.Unit">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAIAACAAAAAAAAAAgIAAAAIAEAAAAIAAAAIAQAAAAAA=</HashCode>
+      <FileName>Core\Unit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+      <Property Name="Lecturer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Assignments" />
+      <Property Name="Students" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
