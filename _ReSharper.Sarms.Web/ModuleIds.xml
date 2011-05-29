@@ -1,5 +1,0 @@
-<Modules>
-  <Module PersistentId="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC" ModuleId="Sarms.Web" />
-  <Module PersistentId="51E33BFF-70C6-45A3-BB68-29C905DB70AF" ModuleId="Sarms.Core" />
-  <Module PersistentId="58078145-4CF4-43F2-9B26-677E2D37D047" ModuleId="Sarms.Domain" />
-</Modules>
