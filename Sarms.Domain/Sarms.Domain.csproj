@@ -31,8 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +50,7 @@
     <Compile Include="Core\Assignment.cs" />
     <Compile Include="Core\Course.cs" />
     <Compile Include="Core\Lecturer.cs" />
+    <Compile Include="Data\SarmsContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Core\Report.cs" />
     <Compile Include="Core\Student.cs" />
@@ -52,6 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Core\ClassDiagram.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EFCodeFirstReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

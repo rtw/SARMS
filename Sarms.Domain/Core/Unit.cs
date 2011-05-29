@@ -4,7 +4,7 @@ namespace Sarms.Domain.Core
 {
     public class Unit
     {
-        public int UnitCode { get; set; }
+        public int UnitID { get; set; }
         public string UnitName { get; set; }
         public Lecturer Lecturer { get; set; }
         public Course Course { get; set; }
