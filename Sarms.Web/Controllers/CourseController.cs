@@ -15,7 +15,7 @@ namespace Sarms.Web.Controllers
 
         public ViewResult Index()
         {
-            return View(db.Courses.ToList());
+           return View(db.Courses.ToList());
         }
 
         //

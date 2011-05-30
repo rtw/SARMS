@@ -7,8 +7,70 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Administrator/f:Delete.cshtml" caret="120" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Administrator/f:Index.cshtml" caret="119" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:AssignmentController.cs" caret="0" fromTop="0" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Assignment/f:Details.cshtml" caret="106" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Assignment/f:Index.cshtml" caret="88" fromTop="3" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Assignment/f:Create.cshtml" caret="111" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Assignment/f:Edit.cshtml" caret="107" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Assignment/f:Delete.cshtml" caret="111" fromTop="6" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Report.cs" caret="0" fromTop="0" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Course.cs" caret="0" fromTop="0" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Assignment.cs" caret="0" fromTop="0" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Account.cs" caret="0" fromTop="0" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Unit/f:Students.cshtml" caret="0" fromTop="0" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Details.cshtml" caret="106" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Edit.cshtml" caret="107" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Delete.cshtml" caret="111" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:UnitController.cs" caret="2192" fromTop="14" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Course/f:Create.cshtml" caret="343" fromTop="5" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Lecturer.cs" caret="117" fromTop="4" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Administrator.cs" caret="164" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Shared/f:_Layout.cshtml" caret="1183" fromTop="24" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Unit.cs" caret="915" fromTop="31" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Student.cs" caret="629" fromTop="18" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Administrator/f:Create.cshtml" caret="467" fromTop="10" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Create.cshtml" caret="828" fromTop="23" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Index.cshtml" caret="212" fromTop="13" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Data/f:SarmsContext.cs" caret="187" fromTop="7" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Enrollment.cs" caret="49" fromTop="2" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="410" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Index.cshtml" caret="256" fromTop="15" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Index.cshtml" caret="349" fromTop="20" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="989" fromTop="17" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="1470" fromTop="30" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Enrollment.cs" caret="0" fromTop="0" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Unit.cs" caret="322" fromTop="10" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Unit.cs" caret="457" fromTop="15" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Unit.cs" caret="549" fromTop="23" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Unit.cs" caret="553" fromTop="19" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Unit.cs" caret="687" fromTop="24" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="1270" fromTop="13" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="1304" fromTop="15" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Data/f:SarmsContext.cs" caret="572" fromTop="17" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="2281" fromTop="17" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="2603" fromTop="28" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="647" fromTop="25" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="1649" fromTop="17" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Data/f:SarmsContext.cs" caret="135" fromTop="6" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Lecturer.cs" caret="117" fromTop="4" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Student.cs" caret="152" fromTop="4" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Administrator.cs" caret="164" fromTop="6" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Unit.cs" caret="949" fromTop="31" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Shared/f:_Layout.cshtml" caret="1183" fromTop="24" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Student.cs" caret="627" fromTop="18" />
+      <File id="58078145-4CF4-43F2-9B26-677E2D37D047/d:Core/f:Enrollment.cs" caret="197" fromTop="6" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Create.cshtml" caret="447" fromTop="16" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Create.cshtml" caret="503" fromTop="13" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Create.cshtml" caret="695" fromTop="19" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Views/d:Enrollment/f:Create.cshtml" caret="828" fromTop="23" />
+      <File id="5477EEF9-7A6D-42B5-B2AA-0FAD97DDB5EC/d:Controllers/f:EnrollmentController.cs" caret="400" fromTop="16" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +83,85 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="18" />
+      <Item value="DbSet`0" priority="5" />
+      <Item value="int" priority="7" />
+      <Item value="Assignment`0" priority="0" />
+      <Item value="Course`0" priority="0" />
+      <Item value="Report`0" priority="0" />
+      <Item value="Unit`0" priority="2" />
+      <Item value="Sarms" priority="0" />
+      <Item value="Domain" priority="0" />
+      <Item value="Student`0" priority="4" />
+      <Item value="Lecturer`0" priority="0" />
+      <Item value="Students`0" priority="0" />
+      <Item value="db" priority="7" />
+      <Item value="x" priority="2" />
+      <Item value="XmlReadMode`0" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="students" priority="0" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="unit" priority="1" />
+      <Item value="var" priority="3" />
+      <Item value="string" priority="1" />
+      <Item value="Enrollment`0" priority="3" />
+      <Item value="new" priority="2" />
+      <Item value="Enrollment" priority="1" />
+      <Item value="enrollment" priority="5" />
+      <Item value="unitcode" priority="0" />
+      <Item value="RedirectToAction`0" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="student" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="Enrollments" priority="0" />
+      <Item value="List&lt;Enrollment&gt;" priority="0" />
+      <Item value="false" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sarms.Domain.Data.SarmsContext">
+      <Item value="Administrators" priority="0" />
+      <Item value="Lecturers" priority="0" />
+      <Item value="Students" priority="3" />
+      <Item value="Units" priority="3" />
+      <Item value="UnitStudents" priority="0" />
+      <Item value="Configuration" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbSet`1">
+      <Item value="Find`0" priority="2" />
+      <Item value="Where`1" priority="2" />
+      <Item value="Single`1" priority="0" />
+      <Item value="Select`2" priority="1" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Include`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sarms.Domain.Core.Unit">
+      <Item value="Students" priority="3" />
+      <Item value="RemoveStudent`0" priority="0" />
+      <Item value="UnitID" priority="0" />
+      <Item value="EnrollStudent`0" priority="0" />
+      <Item value="Enrollments" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sarms.Domain.Core.Enrollment">
+      <Item value="Student" priority="0" />
+      <Item value="Unit" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sarms.Domain.Core.Student">
+      <Item value="Username" priority="0" />
+      <Item value="Enrollments" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.Infrastructure.DbQuery`1">
+      <Item value="Include`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.Infrastructure.DbContextConfiguration">
+      <Item value="LazyLoadingEnabled" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

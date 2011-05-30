@@ -50,6 +50,7 @@
     <Compile Include="Core\Assignment.cs" />
     <Compile Include="Core\Course.cs" />
     <Compile Include="Core\Lecturer.cs" />
+    <Compile Include="Core\Enrollment.cs" />
     <Compile Include="Data\SarmsContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Core\Report.cs" />

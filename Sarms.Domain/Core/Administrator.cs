@@ -4,6 +4,7 @@ namespace Sarms.Domain.Core
 {
     public class Administrator : Account
     {
+        public int AdministratorID { get; set; }
         public IList<Report> Reports { get; set; }
 
         public Administrator()

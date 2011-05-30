@@ -2,5 +2,6 @@
 {
     public class Lecturer : Account
     {
+        public int LecturerID { get; set; }
     }
 }

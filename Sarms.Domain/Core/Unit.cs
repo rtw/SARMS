@@ -8,28 +8,30 @@ namespace Sarms.Domain.Core
         public string UnitName { get; set; }
         public Lecturer Lecturer { get; set; }
         public Course Course { get; set; }
-        public IList<Student> Students { get; set; }
+        public IList<Enrollment> Enrollments { get; set; }
         public IList<Assignment> Assignments { get; set; }
 
         public Unit()
         {
-            Students = new List<Student>();
+            Enrollments = new List<Enrollment>();
             Assignments = new List<Assignment>();
-        }
-
-        public void AddStudent(Student student)
-        {
-            Students.Add(student);    
-        }
-
-        public void RemoveStudent(Student student)
-        {
-            Students.Remove(student);
         }
 
         public void ChangeLecturer(Lecturer lecturer)
         {
             Lecturer = lecturer;
+        }
+
+        public Enrollment EnrollStudent(Student student)
+        {
+            var enrollment = new Enrollment();
+            enrollment.Unit = this;
+            enrollment.Student = student;
+
+            Enrollments.Add(enrollment);
+            student.Enrollments.Add(enrollment);
+
+            return enrollment;
         }
 
         public void AddAssignment(Assignment assignment)
