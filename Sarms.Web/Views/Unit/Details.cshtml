@@ -1,0 +1,20 @@
+﻿@model Sarms.Domain.Core.Unit
+
+@{
+    ViewBag.Title = "Unit Details";
+}
+
+<h2>Unit Details</h2>
+
+<fieldset>
+    <legend>Unit</legend>
+
+    <div class="display-label">UnitName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UnitName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.UnitID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

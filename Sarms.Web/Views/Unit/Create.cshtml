@@ -1,0 +1,33 @@
+﻿@model Sarms.Domain.Core.Unit
+
+@{
+    ViewBag.Title = "New Unit";
+}
+
+<h2>New Unit</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Unit</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UnitName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UnitName)
+            @Html.ValidationMessageFor(model => model.UnitName)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

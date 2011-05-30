@@ -1,0 +1,15 @@
+﻿@model Sarms.Domain.Core.Enrollment
+
+@{
+    ViewBag.Title = "Enrollment Details";
+}
+
+<h2>Enrollment Details</h2>
+
+<fieldset>
+    <legend>Enrollment</legend>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.EnrollmentID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,37 @@
+﻿@model Sarms.Domain.Core.Enrollment
+
+@{
+    ViewBag.Title = "Create Enrollment";
+}
+
+<h2>Create Enrollment</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Enrollment</legend>
+
+        <div class="editor-label">
+            Username
+        </div>
+        <div class="editor-field">
+            <input type="text" id="username" name="username" />
+        </div>
+        <div class="editor-label">
+            Unit code
+        </div>
+        <div class="editor-field">
+            <input type="text" id="unitname" name="unitname" />
+        </div> 
+        <p>
+            <input type="submit" value="Enroll" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

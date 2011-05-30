@@ -1,0 +1,67 @@
+﻿@model Sarms.Domain.Core.Administrator
+
+@{
+    ViewBag.Title = "Edit Administrator";
+}
+
+<h2>Edit Adminstrator</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Administrator</legend>
+
+        @Html.HiddenFor(model => model.AccountID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Username)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Username)
+            @Html.ValidationMessageFor(model => model.Username)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Password)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FName)
+            @Html.ValidationMessageFor(model => model.FName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MName)
+            @Html.ValidationMessageFor(model => model.MName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SName)
+            @Html.ValidationMessageFor(model => model.SName)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
